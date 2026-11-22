@@ -1,0 +1,42 @@
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Build files
+.next/
+**/dist/
+**/build/
+coverage/
+
+# Mac files
+.DS_Store
+.AppleDouble
+._*
+
+# Draw.io diagrams and backups
+*.drawio
+*.drawio.bkp
+*~*.drawio*
+
+# Personal documents and project reports
+*.pdf
+*.zip
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xlsx
+
+# Uploads
+backend/uploads/
+uploads/
+
+# Logs
+*.log
+npm-debug.log*
